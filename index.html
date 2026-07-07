@@ -1,1 +1,1088 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЭР-Телеком</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <!-- ПЕРВЫЙ ПОЛНОЭКРАННЫЙ БЛОК (код из предыдущего шага) -->
+    <section class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="background-overlay"></div>
+         <header class="header">
+            <div class="logo-container">
+                <div class="logo-placeholder">
+                    <img src="img/logo.png" alt="ЭР-Телеком Холдинг" class="logo-img">
+                </div>
+            </div>
+
+            <!-- Кнопка Бургер-меню -->
+            <div class="burger-menu" id="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Меню навигации -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#portfolio">Портфолио</a>
+                <a href="#skills">Hard и Soft Skills</a>
+                <a href="#career">Путь к карьере</a>
+                <a href="#day-life">Один день из жизни специалиста</a>
+                <a href="#why-important">Почему роль важна для ЭР-ТЕЛЕКОМ</a>
+                <a href="#team">Наша команда</a>
+            </nav>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="image-block">
+                <img src="img/man.jpg" alt="Инженер">
+            </div>
+            <div class="text-block glass-effect">
+                <h1 class="main-title">Инженер по эксплуатации сети</h1>
+                <p class="main-desc">
+                    Специалист, отвечающий за бесперебойное функционирование, техническое обслуживание и оперативное управление телекоммуникационной инфраструктурой (локальные сети, магистральные каналы, беспроводное оборудование и серверное хозяйство).
+                </p>
+            </div>
+        </div>
+    </section>
+
+          <!-- БЛОК: ПОРТФОЛИО (С АНИМИРОВАННЫМ СТЕКЛЯННЫМ МЕНЮ) -->
+    <section class="portfolio-section" id="portfolio">
+        <h2 class="portfolio-title">Портфолио</h2>
+        
+        <div class="portfolio-grid">
+            <!-- Карточка 1: Магистраль -->
+            <div class="portfolio-card" data-modal="modal-project-1">
+                <div class="decor-corner top-left"></div>
+                <div class="decor-corner top-right"></div>
+                <div class="decor-corner bottom-left"></div>
+                <div class="decor-corner bottom-right"></div>
+                <h3 class="card-title">Миграция магистральной сети</h3>
+                <p class="card-subtitle">Апгрейд ядра сети на Cisco / Huawei. Полная миграция BGP-маршрутизации без перебоев.</p>
+                <div class="card-btn">
+                    <span>Смотреть проект</span>
+                    <div class="btn-icon">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 2: NOC -->
+            <div class="portfolio-card" data-modal="modal-project-2">
+                <div class="decor-corner top-left"></div>
+                <div class="decor-corner top-right"></div>
+                <div class="decor-corner bottom-left"></div>
+                <div class="decor-corner bottom-right"></div>
+                <h3 class="card-title">Развертывание NOC и мониторинга</h3>
+                <p class="card-subtitle">Внедрение стека Zabbix + Grafana. Сокращение времени реакции на аварии (MTTR) на 40%.</p>
+                <div class="card-btn">
+                    <span>Смотреть проект</span>
+                    <div class="btn-icon">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 3: Wi-Fi -->
+            <div class="portfolio-card" data-modal="modal-project-3">
+                <div class="decor-corner top-left"></div>
+                <div class="decor-corner top-right"></div>
+                <div class="decor-corner bottom-left"></div>
+                <div class="decor-corner bottom-right"></div>
+                <h3 class="card-title">Модернизация Wi-Fi 6 Кампуса</h3>
+                <p class="card-subtitle">Обеспечение бесшовного роуминга для 500+ пользователей на базе Cisco Wireless LAN Controller.</p>
+                <div class="card-btn">
+                    <span>Смотреть проект</span>
+                    <div class="btn-icon">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Карточка 4: Облако -->
+            <div class="portfolio-card" data-modal="modal-project-4">
+                <div class="decor-corner top-left"></div>
+                <div class="decor-corner top-right"></div>
+                <div class="decor-corner bottom-left"></div>
+                <div class="decor-corner bottom-right"></div>
+                <h3 class="card-title">Создание отказоустойчивого облака</h3>
+                <p class="card-subtitle">Построение кластера виртуализации на базе KVM/Proxmox с полным резервированием.</p>
+                <div class="card-btn">
+                    <span>Смотреть проект</span>
+                    <div class="btn-icon">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 5: VPN -->
+            <div class="portfolio-card" data-modal="modal-project-5">
+                <div class="decor-corner top-left"></div>
+                <div class="decor-corner top-right"></div>
+                <div class="decor-corner bottom-left"></div>
+                <div class="decor-corner bottom-right"></div>
+                <h3 class="card-title">Защищенная сеть филиалов (VPN)</h3>
+                <p class="card-subtitle">Объединение 15 удаленных площадок через IPsec/IKEv2. Балансировка и резервирование каналов.</p>
+                <div class="card-btn">
+                    <span>Смотреть проект</span>
+                    <div class="btn-icon">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 6: Автоматизация -->
+            <div class="portfolio-card" data-modal="modal-project-6">
+                <div class="decor-corner top-left"></div>
+                <div class="decor-corner top-right"></div>
+                <div class="decor-corner bottom-left"></div>
+                <div class="decor-corner bottom-right"></div>
+                <h3 class="card-title">Автоматизация сети (NetOps)</h3>
+                <p class="card-subtitle">Управление конфигурациями через Git и Ansible. Исключение человеческого фактора при изменениях.</p>
+                <div class="card-btn">
+                    <span>Смотреть проект</span>
+                    <div class="btn-icon">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- МОДАЛЬНЫЕ ОКНА (Стеклянные меню) -->
+    <div id="modal-project-1" class="portfolio-modal-overlay">
+        <div class="portfolio-modal-content glass-effect">
+            <button class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <span class="modal-icon">📡</span>
+                <h2>Миграция магистральной сети</h2>
+            </div>
+            <div class="modal-body">
+                <p>Крупномасштабная миграция ядра сети с морально устаревшего оборудования на современные стеки Cisco и Huawei. Реализован план поэтапной замены без отключения сервисов для конечных пользователей, проведена полная реконфигурация протоколов BGP и OSPF.</p>
+                <div class="modal-tech-stack">
+                    <span class="tech-tag">Cisco IOS</span>
+                    <span class="tech-tag">Huawei VRP</span>
+                    <span class="tech-tag">BGP</span>
+                    <span class="tech-tag">OSPF</span>
+                </div>
+                <p class="modal-result"><strong>Результат:</strong> Повышение пропускной способности магистрали на 60%. Снижение задержек (Latency) на 20%.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-project-2" class="portfolio-modal-overlay">
+        <div class="portfolio-modal-content glass-effect">
+            <button class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <span class="modal-icon">🖥️</span>
+                <h2>Развертывание NOC и мониторинга</h2>
+            </div>
+            <div class="modal-body">
+                <p>Создание Центра управления сетью (NOC) с нуля. Развернута эко-система мониторинга Zabbix для сбора метрик и Grafana для визуализации дашбордов. Настроена система алертинга с интеграцией в Telegram/Slack.</p>
+                <div class="modal-tech-stack">
+                    <span class="tech-tag">Zabbix</span>
+                    <span class="tech-tag">Grafana</span>
+                    <span class="tech-tag">SNMP</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+                <p class="modal-result"><strong>Результат:</strong> MTTR (время реагирования) сокращено с 60 до 15 минут. Полная прозрачность состояния сети 24/7.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-project-3" class="portfolio-modal-overlay">
+        <div class="portfolio-modal-content glass-effect">
+            <button class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <span class="modal-icon">📶</span>
+                <h2>Модернизация Wi-Fi 6 Кампуса</h2>
+            </div>
+            <div class="modal-body">
+                <p>Полная замена парка беспроводного оборудования в крупном бизнес-кампусе. Внедрение технологии Wi-Fi 6 (802.11ax) с централизованным управлением через Cisco WLC. Настроен бесшовный роуминг для мобильных сотрудников.</p>
+                <div class="modal-tech-stack">
+                    <span class="tech-tag">Wi-Fi 6</span>
+                    <span class="tech-tag">Cisco WLC</span>
+                    <span class="tech-tag">802.11ax</span>
+                    <span class="tech-tag">Roaming</span>
+                </div>
+                <p class="modal-result"><strong>Результат:</strong> Скорость передачи данных увеличилась в 2.5 раза. Полное покрытие 500+ пользователей без потери пакетов.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-project-4" class="portfolio-modal-overlay">
+        <div class="portfolio-modal-content glass-effect">
+            <button class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <span class="modal-icon">☁️</span>
+                <h2>Создание отказоустойчивого облака</h2>
+            </div>
+            <div class="modal-body">
+                <p>Построение инфраструктуры частного облака на базе гипервизоров KVM и платформы управления Proxmox VE. Реализована кластеризация серверов с автоматическим переключением на резервный узел в случае отказа (High Availability).</p>
+                <div class="modal-tech-stack">
+                    <span class="tech-tag">KVM</span>
+                    <span class="tech-tag">Proxmox</span>
+                    <span class="tech-tag">Linux</span>
+                    <span class="tech-tag">High Availability</span>
+                </div>
+                <p class="modal-result"><strong>Результат:</strong> Отказоустойчивость уровня Enterprise. Аптайм системы достиг 99.98%.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-project-5" class="portfolio-modal-overlay">
+        <div class="portfolio-modal-content glass-effect">
+            <button class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <span class="modal-icon">🔐</span>
+                <h2>Защищенная сеть филиалов (VPN)</h2>
+            </div>
+            <div class="modal-body">
+                <p>Объединение 15 удаленных филиалов компании в единое защищенное пространство с использованием технологии Site-to-Site VPN. Настроена маршрутизация IKEv2/IPsec с балансировкой нагрузки между двумя провайдерами.</p>
+                <div class="modal-tech-stack">
+                    <span class="tech-tag">IPsec/IKEv2</span>
+                    <span class="tech-tag">WireGuard</span>
+                    <span class="tech-tag">Load Balancing</span>
+                    <span class="tech-tag">NAT</span>
+                </div>
+                <p class="modal-result"><strong>Результат:</strong> Снижение стоимости выделенных каналов на 40%. Полная защита трафика между офисами.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-project-6" class="portfolio-modal-overlay">
+        <div class="portfolio-modal-content glass-effect">
+            <button class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <span class="modal-icon">🤖</span>
+                <h2>Автоматизация сети (NetOps)</h2>
+            </div>
+            <div class="modal-body">
+                <p>Внедрение методологии Network as Code в эксплуатацию сети. Написание Playbook'ов на Ansible для массового обновления конфигураций на сотнях коммутаторов. Интеграция с Git для контроля версий и отката изменений.</p>
+                <div class="modal-tech-stack">
+                    <span class="tech-tag">Ansible</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Git</span>
+                    <span class="tech-tag">CI/CD</span>
+                </div>
+                <p class="modal-result"><strong>Результат:</strong> Время внедрения типовых конфигураций сокращено с 3 часов до 5 минут. Полное исключение человеческих ошибок.</p>
+            </div>
+        </div>
+    </div>
+
+       
+
+
+
+
+           <!-- БЛОК: HARD & SOFT SKILLS (С МОДАЛЬНЫМИ ОКНАМИ) -->
+    <section class="skills-section-glass" id="skills">
+        <h2 class="skills-title-glass">Hard и Soft Skills</h2>
+        
+        <div class="skills-container-glass">
+            
+            <!-- Карточка Hard Skills (Кликабельная) -->
+            <div class="skills-card-glass" data-modal="modal-sk-hard">
+                <!-- Декоративные элементы (как в Летних школах) -->
+                <div class="skg-decor top-left-dark"></div>
+                <div class="skg-decor top-right-light"></div>
+                <div class="skg-decor bottom-left-light"></div>
+                <div class="skg-decor bottom-right-dark"></div>
+
+                <div class="skg-content">
+                    <div class="skg-header">
+                        <span class="skg-icon">⚙️</span>
+                        <h3>Hard Skills</h3>
+                        <span class="skg-badge">Профессиональные</span>
+                    </div>
+                    <!-- Общее описание (коротко) -->
+                    <p class="skg-short-desc">
+                        Технические компетенции, которые можно проверить на собеседовании или тестовом задании.
+                    </p>
+                    <ul class="skg-short-list">
+                        <li>Сетевые технологии и протоколы (TCP/IP, OSPF, BGP)</li>
+                        <li>Сетевая безопасность и VPN</li>
+                        <li>Работа с оборудованием Cisco, MikroTik, Zabbix, Grafana</li>
+                    </ul>
+                    <button class="skg-btn">
+                        <span>Подробнее</span>
+                        <div class="skg-btn-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Карточка Soft Skills (Кликабельная) -->
+            <div class="skills-card-glass" data-modal="modal-sk-soft">
+                <!-- Декоративные элементы -->
+                <div class="skg-decor top-left-dark"></div>
+                <div class="skg-decor top-right-light"></div>
+                <div class="skg-decor bottom-left-light"></div>
+                <div class="skg-decor bottom-right-dark"></div>
+
+                <div class="skg-content">
+                    <div class="skg-header">
+                        <span class="skg-icon">🧠</span>
+                        <h3>Soft Skills</h3>
+                        <span class="skg-badge">Личностные</span>
+                    </div>
+                    <!-- Общее описание (коротко) -->
+                    <p class="skg-short-desc">
+                        Гибкие навыки, описывающие, как инженер встраивается в рабочий процесс и коммуницирует с командой.
+                    </p>
+                    <ul class="skg-short-list">
+                        <li>Коммуникации и сервисный подход</li>
+                        <li>Стрессоустойчивость и аналитическое мышление</li>
+                        <li>Дисциплина и документирование</li>
+                    </ul>
+                    <button class="skg-btn">
+                        <span>Подробнее</span>
+                        <div class="skg-btn-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- МОДАЛЬНОЕ ОКНО 1: HARD SKILLS -->
+    <div id="modal-sk-hard" class="skg-modal-overlay">
+        <div class="skg-modal-window glass-effect-sk">
+            <button class="skg-modal-close">&times;</button>
+            
+            <div class="skg-modal-header">
+                <span class="skg-modal-icon">⚙️</span>
+                <h3>Hard Skills (Профессиональные компетенции)</h3>
+            </div>
+            <p class="skg-modal-desc">Эти навыки можно проверить на собеседовании или тестовом задании.</p>
+            
+            <div class="skg-modal-body">
+                <div class="skg-modal-group">
+                    <h4>Сетевые технологии и протоколы (Must Have)</h4>
+                    <ul>
+                        <li><strong>Стек TCP/IP:</strong> глубокое понимание OSI (L1-L4), маршрутизации, коммутации.</li>
+                        <li><strong>Маршрутизация:</strong> статическая маршрутизация, динамические протоколы (OSPF, BGP — базовый уровень).</li>
+                        <li><strong>Коммутация:</strong> уверенная работа с VLAN (802.1Q), Spanning Tree (RSTP/MSTP), агрегация каналов (LACP).</li>
+                    </ul>
+                </div>
+
+                <div class="skg-modal-group">
+                    <h4>Сетевая безопасность и доступ</h4>
+                    <ul>
+                        <li><strong>Межсетевые экраны:</strong> настройка политик фильтрации (ACL), трансляция адресов (NAT/NAPT).</li>
+                        <li><strong>VPN:</strong> навыки настройки Site-to-Site и Remote Access VPN (IPsec/IKEv2, WireGuard, OpenVPN).</li>
+                        <li><strong>Контроль доступа:</strong> понимание стандарта 802.1X, Radius/TACACS+, работа с Captive Portal.</li>
+                    </ul>
+                </div>
+
+                <div class="skg-modal-group">
+                    <h4>Оборудование и инструментарий</h4>
+                    <ul>
+                        <li><strong>Вендоры:</strong> опыт работы с CLI оборудования Cisco/IOS, Juniper/JunOS, MikroTik/RouterOS.</li>
+                        <li><strong>Мониторинг:</strong> уверенный пользователь Zabbix, Nagios, Grafana, умение строить дашборды.</li>
+                        <li><strong>Диагностика:</strong> работа с анализаторами трафика (Wireshark, tcpdump), NetFlow.</li>
+                    </ul>
+                </div>
+
+                <div class="skg-modal-group">
+                    <h4>Инфраструктура и автоматизация</h4>
+                    <ul>
+                        <li><strong>Скриптовые языки:</strong> навыки написания скриптов на Bash/Python для автоматизации.</li>
+                        <li><strong>Кабельные системы:</strong> знание категорий медных и оптических кабелей.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- МОДАЛЬНОЕ ОКНО 2: SOFT SKILLS -->
+    <div id="modal-sk-soft" class="skg-modal-overlay">
+        <div class="skg-modal-window glass-effect-sk">
+            <button class="skg-modal-close">&times;</button>
+            
+            <div class="skg-modal-header">
+                <span class="skg-modal-icon">🧠</span>
+                <h3>Soft Skills (Личностные качества и гибкие навыки)</h3>
+            </div>
+            <p class="skg-modal-desc">Опишите, как инженер встроится в рабочий процесс.</p>
+            
+            <div class="skg-modal-body">
+                <div class="skg-modal-group">
+                    <h4>Коммуникации и сервисный подход</h4>
+                    <ul>
+                        <li><strong>Клиентоориентированность:</strong> умение спокойно общаться с пользователями, "перевод с IT-языка на человеческий".</li>
+                        <li><strong>Четкая эскалация:</strong> способность вовремя понять, что проблема выходит за рамки компетенции, и передать ее.</li>
+                        <li><strong>Навыки ведения переговоров:</strong> жесткий, но корректный диалог с провайдерами.</li>
+                    </ul>
+                </div>
+
+                <div class="skg-modal-group">
+                    <h4>Мышление и работоспособность</h4>
+                    <ul>
+                        <li><strong>Стрессоустойчивость:</strong> сохранение спокойствия во время массовых аварий, DDoS-атак.</li>
+                        <li><strong>Аналитический подход:</strong> склонность к расследованию причины инцидента (Root Cause Analysis).</li>
+                        <li><strong>Мультизадачность:</strong> умение удерживать в фокусе несколько прерванных задач.</li>
+                    </ul>
+                </div>
+
+                <div class="skg-modal-group">
+                    <h4>Дисциплина и организация</h4>
+                    <ul>
+                        <li><strong>Документирование:</strong> потребность фиксировать изменения и поддерживать базу знаний.</li>
+                        <li><strong>Ответственность:</strong> четкое соблюдение регламентов и политик безопасности.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- БЛОК: ПУТЬ К КАРЬЕРЕ -->
+    <section class="career-path-section" id="career">
+        <h2 class="career-title">Путь к карьере</h2>
+        <p class="career-subtitle">Карьерный путь инженера по эксплуатации сети обычно идёт не столько по ступеням субординации, сколько по пути усложнения архитектуры и автоматизации.</p>
+        
+        <!-- Таймлайн-трек (Горизонтальный) -->
+        <div class="career-timeline">
+            <div class="timeline-track"></div> <!-- Линия между точками -->
+            
+            <div class="timeline-step active" data-step="1">
+                <div class="step-dot">1</div>
+                <div class="step-label">Стажёр</div>
+            </div>
+            <div class="timeline-step" data-step="2">
+                <div class="step-dot">2</div>
+                <div class="step-label">Инженер</div>
+            </div>
+            <div class="timeline-step" data-step="3">
+                <div class="step-dot">3</div>
+                <div class="step-label">Ведущий<br>инженер</div>
+            </div>
+            <div class="timeline-step" data-step="4">
+                <div class="step-dot">4</div>
+                <div class="step-label">Эксперт</div>
+            </div>
+            <div class="timeline-step" data-step="5">
+                <div class="step-dot">5</div>
+                <div class="step-label">Менеджер<br>трек</div>
+            </div>
+        </div>
+
+        <!-- Контентные карточки для этапов (появляются при клике) -->
+        <div class="career-details-container">
+            <!-- Этап 1: Стажёр -->
+            <div class="career-detail active" id="step-1">
+                <div class="career-detail-grid">
+                    <div class="detail-left">
+                        <span class="detail-badge">Этап 1</span>
+                        <h3>Стажёр / Junior Network Engineer</h3>
+                        <p class="detail-soul"><em>«Принеси-подай, смотри и учись».</em> Работа строго под присмотром.</p>
+                    </div>
+                    <div class="detail-right">
+                        <div class="detail-box">
+                            <h4>Задачи и зона ответственности</h4>
+                            <ul>
+                                <li><strong>Задачи:</strong> Патч-корды, инвентаризация, замена сбойных SFP-модулей, написание инструкций.</li>
+                                <li><strong>Ответственность:</strong> Только физический уровень (L1). Конфигурации не трогает (read-only).</li>
+                                <li><strong>Цель:</strong> Выучить модель OSI на практике, освоить консоль, не ронять продакшн.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Этап 2: Инженер -->
+            <div class="career-detail" id="step-2">
+                <div class="career-detail-grid">
+                    <div class="detail-left">
+                        <span class="detail-badge">Этап 2</span>
+                        <h3>Инженер по эксплуатации (Middle)</h3>
+                        <p class="detail-soul"><em>«Основная рабочая лошадка».</em> Специалист, который поднимает трубку при авариях.</p>
+                    </div>
+                    <div class="detail-right">
+                        <div class="detail-box">
+                            <h4>Задачи и технологии</h4>
+                            <ul>
+                                <li><strong>Задачи:</strong> Устранение инцидентов L2/L3 (петли, маршрутизация), настройка доступа, Wi-Fi, файрволы, ведение IPAM.</li>
+                                <li><strong>Ответственность:</strong> Сегмент сети (офис, заводская площадка).</li>
+                                <li><strong>Стек:</strong> STP, VLAN, EtherChannel, OSPF (базово), Wi-Fi 6, базовый Linux.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Этап 3: Ведущий инженер -->
+            <div class="career-detail" id="step-3">
+                <div class="career-detail-grid">
+                    <div class="detail-left">
+                        <span class="detail-badge">Этап 3</span>
+                        <h3>Ведущий инженер (Senior)</h3>
+                        <p class="detail-soul"><em>«Архитектор эксплуатации».</em> Решает самые сложные проблемы, на которые скинули тикеты.</p>
+                    </div>
+                    <div class="detail-right">
+                        <div class="detail-box">
+                            <h4>Задачи и технологии</h4>
+                            <ul>
+                                <li><strong>Задачи:</strong> Глубокий troubleshooting (дампы трафика), проектирование резервирования и балансировки, наставничество.</li>
+                                <li><strong>Ответственность:</strong> Вся сеть целиком (Enterprise Core, ЦОД).</li>
+                                <li><strong>Стек:</strong> BGP, MPLS, VXLAN/EVPN, Network Automation (Python/Ansible), Linux на уровне админа.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Этап 4: Эксперт -->
+            <div class="career-detail" id="step-4">
+                <div class="career-detail-grid">
+                    <div class="detail-left">
+                        <span class="detail-badge">Этап 4</span>
+                        <h3>Эксперт / Network Architect</h3>
+                        <p class="detail-soul"><em>«Смотрящий в будущее».</em> Переходит от тушения пожаров к их предотвращению.</p>
+                    </div>
+                    <div class="detail-right">
+                        <div class="detail-box">
+                            <h4>Задачи и ответственность</h4>
+                            <ul>
+                                <li><strong>Задачи:</strong> Дизайн сети с нуля (вендор, топология), унификация конфигураций, аудит безопасности, бюджеты CAPEX/OPEX.</li>
+                                <li><strong>Ключевое отличие:</strong> Задачи вида «Сделай красиво» вместо «Срочно почини».</li>
+                                <li><strong>Акцент:</strong> Наличие сертификатов уровня CCNP/CCIE (или Huawei/Juniper).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Этап 5: Менеджер -->
+            <div class="career-detail" id="step-5">
+                <div class="career-detail-grid">
+                    <div class="detail-left">
+                        <span class="detail-badge">Этап 5</span>
+                        <h3>Менеджерский трек (Team Lead)</h3>
+                        <p class="detail-soul"><em>«Управленец».</em> Глубоко в конфиги может уже не ходить, но понимает физику процессов.</p>
+                    </div>
+                    <div class="detail-right">
+                        <div class="detail-box">
+                            <h4>Задачи и особенности</h4>
+                            <ul>
+                                <li><strong>Задачи:</strong> Управление командой (KPI, отпуска, найм), бюджет отдела, SLA, закупки, коммуникация с бизнесом.</li>
+                                <li><strong>Точка бифуркации:</strong> Сюда переходят либо из чистого технаря, либо остаются на уровне 3-4 как Staff/Principal Engineer (индивидуальный эксперт).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок: Альтернативные развилки -->
+        <div class="career-pivots">
+            <h3>Альтернативные развилки (Pivot points)</h3>
+            <div class="pivot-grid">
+                <div class="pivot-card">
+                    <div class="pivot-icon">🛡️</div>
+                    <h4>В сторону ИБ</h4>
+                    <p>Если больше нравится копаться в логах, настраивать фаерволы, IDS/IPS и бороться с DDoS-атаками.</p>
+                </div>
+                <div class="pivot-card">
+                    <div class="pivot-icon">⚙️</div>
+                    <h4>В сторону DevOps / SRE</h4>
+                    <p>Если надоело жать кнопки руками. Владение Python и Ansible становится важнее, чем умение обжимать кабель.</p>
+                </div>
+                <div class="pivot-card">
+                    <div class="pivot-icon">💻</div>
+                    <h4>В сторону DevNet</h4>
+                    <p>Создание софта и интеграций для управления сетью, CI/CD для сетевых конфигураций.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок: Технологический стек -->
+        <div class="career-stack">
+            <h3>Самый типичный стек на старте</h3>
+            <div class="stack-tags">
+                <span class="tag">Cisco CLI</span>
+                <span class="tag">Huawei VRP</span>
+                <span class="tag">Linux</span>
+                <span class="tag">Python</span>
+            </div>
+            <p class="stack-note">Без этих знаний рост выше начального уровня практически невозможен.</p>
+        </div>
+    </section>
+
+
+
+
+
+             <!-- БЛОК: ОДИН ДЕНЬ ИЗ ЖИЗНИ (С ИНФОГРАФИКОЙ) -->
+    <section class="day-in-life-section" id="day-life">
+        <h2 class="day-title">Один день из жизни специалиста</h2>
+        
+        <div class="day-container">
+            
+            <!-- Единственный день (Текст + Картинка) -->
+            <div class="day-row">
+                
+                <!-- ЛЕВАЯ КОЛОНКА: Текст (Таймлайн) -->
+                <div class="day-text">
+                    <h3>День инженера по эксплуатации сети</h3>
+                    
+                    <div class="timeline-wrapper">
+                        <!-- Шаг 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">📊</div>
+                            <div class="timeline-content">
+                                <strong>09:00 — Утро начинается с контроля.</strong>
+                                <p>Первым делом инженер открывает дашборды систем мониторинга (Zabbix, Grafana), проверяет состояние магистральных каналов, загрузку процессоров и ночные логи отказов.</p>
+                            </div>
+                        </div>
+
+                        <!-- Шаг 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">🤝</div>
+                            <div class="timeline-content">
+                                <strong>10:00 — Планерка с командой.</strong>
+                                <p>На утреннем созвоне распределяются задачи на день: кто берет срочные тикеты, кому нужно выехать на объект для апгрейда, а кто занимается настройкой VLAN и межсетевых экранов.</p>
+                            </div>
+                        </div>
+
+                        <!-- Шаг 3 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">🚨</div>
+                            <div class="timeline-content">
+                                <strong>12:00 — Оперативное реагирование.</strong>
+                                <p>Поступает сигнал о падении канала у крупного клиента. Инженер проверяет BGP-маршруты, локализует проблему и переключает трафик на резервный канал.</p>
+                            </div>
+                        </div>
+
+                        <!-- Шаг 4 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">🔧</div>
+                            <div class="timeline-content">
+                                <strong>15:00 — Регламентные работы.</strong>
+                                <p>Когда нагрузка на сеть спадает, начинаются плановые работы: обновление прошивки на ядре, замена коммутаторов доступа или настройка тестового стенда.</p>
+                            </div>
+                        </div>
+
+                        <!-- Шаг 5 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">📝</div>
+                            <div class="timeline-content">
+                                <strong>17:00 — Документирование.</strong>
+                                <p>Все изменения фиксируются в базе знаний, обновляются чертежи топологии в Visio и пишутся инструкции для младших коллег.</p>
+                            </div>
+                        </div>
+
+                        <!-- Шаг 6 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">🛡️</div>
+                            <div class="timeline-content">
+                                <strong>24/7 — Готовность к форс-мажорам.</strong>
+                                <p>Рабочий день заканчивается, но круглосуточная поддержка и защита от DDoS-атак позволяют компании спать спокойно.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Блок: Статистика дня (Инфографика) -->
+                    <div class="day-stats">
+                        <div class="stat-item">
+                            <div class="stat-circle stat-blue">15</div>
+                            <span>мин. решение инцидента</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-circle stat-orange">50+</div>
+                            <span>запросов в день</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- ПРАВАЯ КОЛОНКА: Картинка (Растягивается по высоте) + Стекло -->
+                <div class="day-image-wrapper">
+                    <!-- Картинка растягивается под текст -->
+                    <img src="/img/male.jpg" alt="Инженер за работой в дата-центре">
+                    
+                    <!-- Стеклянная карточка с ключевыми временными метками -->
+                    <div class="day-glass-card glass-effect-day">
+                        <div class="glass-item">
+                            <span class="glass-time">09:00</span>
+                            <span class="glass-desc">Контроль дашбордов</span>
+                        </div>
+                        <div class="glass-item">
+                            <span class="glass-time">12:00</span>
+                            <span class="glass-desc">Аварийное реагирование</span>
+                        </div>
+                        <div class="glass-item">
+                            <span class="glass-time">15:00</span>
+                            <span class="glass-desc">Плановые работы</span>
+                        </div>
+                        <div class="glass-item">
+                            <span class="glass-time">17:00</span>
+                            <span class="glass-desc">Документирование</span>
+                        </div>
+                       
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+        <!-- БЛОК: ПОЧЕМУ РОЛЬ ВАЖНА ДЛЯ КОМПАНИИ -->
+    <section class="why-important-section" id="why-important">
+        <h2 class="why-title">Почему роль важна для ЭР-ТЕЛЕКОМ</h2>
+        <p class="why-subtitle">Инженер по эксплуатации сети — это фундамент стабильности, безопасности и роста телекоммуникационного провайдера.</p>
+        
+        <div class="why-grid">
+            
+            <!-- Карточка 1 -->
+            <div class="why-card">
+                <div class="why-icon-wrapper">
+                    <span class="why-icon">📶</span>
+                </div>
+                <h3 class="why-card-title">Гарантия бесперебойной связи</h3>
+                <p class="why-card-desc">
+                    Сеть — это воздух телеком-бизнеса. Ошибка инженера может стоить миллионы. Его задача — обеспечить 99.99% доступности сервисов для тысяч абонентов и корпоративных клиентов, даже в часы пик.
+                </p>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="why-card">
+                <div class="why-icon-wrapper">
+                    <span class="why-icon">⚡</span>
+                </div>
+                <h3 class="why-card-title">Скорость устранения аварий</h3>
+                <p class="why-card-desc">
+                    Каждая минута простоя магистрали — это потеря прибыли и репутации. Инженер мгновенно переключает трафик на резервные каналы и локализует проблему до того, как клиент заметит сбой.
+                </p>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="why-card">
+                <div class="why-icon-wrapper">
+                    <span class="why-icon">🛡️</span>
+                </div>
+                <h3 class="why-card-title">Стратегическая кибербезопасность</h3>
+                <p class="why-card-desc">
+                    DDoS-атаки и вторжения становятся сложнее. Специалист не только чинит сеть, но и выстраивает политики безопасности, предотвращает утечки данных и защищает инфраструктуру от внешних угроз.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+       
+
+
+
+
+         <!-- БЛОК: СОЗДАТЕЛИ ПРОЕКТА -->
+    <section class="creators-section" id="team">
+        <h2 class="creators-title">Наша команда</h2>
+        <p class="creators-subtitle">Познакомьтесь с командой, стоящих за стабильностью сети и развитием инфраструктуры.</p>
+        
+        <div class="creators-wrapper">
+            <!-- Интерактивная область -->
+            <div class="creators-trigger" onclick="this.classList.toggle('active')">
+                
+                <!-- 1. Картинка (Чистая, без текста) -->
+                <div class="trigger-image-wrapper">
+                    <!-- ЗАМЕНИТЕ ССЫЛКУ НА ВАШЕ ФОТО КОМАНДЫ -->
+                    <img src="/img/team.jpg" alt="Команда инженеров" class="trigger-bg">
+                    
+                    <!-- Фирменные декоративные углы -->
+                    <div class="deco-corner tl-dark"></div>
+                    <div class="deco-corner tr-light"></div>
+                    <div class="deco-corner bl-light"></div>
+                    <div class="deco-corner br-dark"></div>
+                </div>
+                
+                <!-- 2. Текст под картинкой -->
+                <div class="trigger-caption">
+                    <div class="trigger-text-content">
+                        <span class="trigger-icon">👥</span>
+                        <div>
+                            <h3>Наша команда</h3>
+                            <p>Дружная команда - это мы!</p>
+                        </div>
+                    </div>
+                    <div class="trigger-arrow-wrapper">
+                        <span class="trigger-arrow">▼</span>
+                    </div>
+                </div>
+
+                <!-- 3. Горизонтальные карточки создателей -->
+                <div class="creators-list-wrapper">
+                    <div class="creators-list-horizontal">
+                        <!-- Карточка 1 -->
+                        <div class="creator-card">
+                            <div class="creator-avatar">ВА</div>
+                            <span class="creator-name">Василий Анисимов</span>
+                            <span class="creator-role">Backend-разработчик</span>
+                        </div>
+                        <!-- Карточка 2 -->
+                        <div class="creator-card">
+                            <div class="creator-avatar">ЛЯ</div>
+                            <span class="creator-name">Лазарев Ярослав</span>
+                            <span class="creator-role">Ведущий разработчик</span>
+                        </div>
+                        <!-- Карточка 3 -->
+                        <div class="creator-card">
+                            <div class="creator-avatar">СИ</div>
+                            <span class="creator-name">Сапожников Иван</span>
+                            <span class="creator-role">Тимлид</span>
+                        </div>
+                        <!-- Карточка 4 -->
+                        <div class="creator-card">
+                            <div class="creator-avatar">ЗА</div>
+                            <span class="creator-name">Сидоров Артем</span>
+                            <span class="creator-role">Ведущий веб-дизайнер</span>
+                        </div>
+                        <!-- Карточка 5 -->
+                        <div class="creator-card">
+                            <div class="creator-avatar">АД</div>
+                            <span class="creator-name">Альтерготт Данил</span>
+                            <span class="creator-role">Frontend-верстальщик</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+    <!-- СКРИПТ ДЛЯ РАБОТЫ ВКЛАДОК -->
+        <!-- СКРИПТ ДЛЯ ПЕРЕКЛЮЧЕНИЯ ВКЛАДОК -->
+        <!-- СКРИПТ ДЛЯ ПЕРЕКЛЮЧЕНИЯ ВКЛАДОК -->
+       <!-- СКРИПТ ДЛЯ ВСЕХ ИНТЕРАКЦИЙ -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- 1. ЛОГИКА ВКЛАДОК (О ПРОФЕССИИ) ---
+            const menuItems = document.querySelectorAll('.menu-item, .sub-item');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            menuItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    menuItems.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(tab => tab.classList.remove('active'));
+                    this.classList.add('active');
+                    const targetId = this.getAttribute('data-tab');
+                    const targetContent = document.getElementById(targetId);
+                    if(targetContent) targetContent.classList.add('active');
+                });
+            });
+
+            // --- 2. ЛОГИКА МОДАЛЬНЫХ ОКОН (ЛЕТНИЕ ШКОЛЫ и SKILLS) ---
+            const allCards = document.querySelectorAll('.school-card, .skills-card-glass');
+            const allOverlays = document.querySelectorAll('.modal-overlay, .skg-modal-overlay');
+            const allCloseBtns = document.querySelectorAll('.modal-close-btn, .skg-modal-close');
+
+            // Открытие по клику на карточку
+            allCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const modalId = this.getAttribute('data-modal');
+                    const modal = document.getElementById(modalId);
+                    if(modal) {
+                        modal.classList.add('active');
+                        document.body.style.overflow = 'hidden'; // Блокируем скролл
+                    }
+                });
+            });
+
+            // Закрытие по клику на крестик
+            allCloseBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const modal = this.closest('.modal-overlay, .skg-modal-overlay');
+                    closeModal(modal);
+                });
+            });
+
+            // Закрытие по клику на фон (за пределами окна)
+            allOverlays.forEach(overlay => {
+                overlay.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        closeModal(this);
+                    }
+                });
+            });
+
+            // Функция закрытия
+            function closeModal(modal) {
+                if(modal) {
+                    modal.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            }
+        });
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+ // --- 3. ЛОГИКА ТАЙМЛАЙНА (ПУТЬ К КАРЬЕРЕ) ---
+            const timelineSteps = document.querySelectorAll('.timeline-step');
+            const careerDetails = document.querySelectorAll('.career-detail');
+
+            timelineSteps.forEach(step => {
+                step.addEventListener('click', function() {
+                    // Убираем активный класс у всех шагов и контента
+                    timelineSteps.forEach(s => s.classList.remove('active'));
+                    careerDetails.forEach(d => d.classList.remove('active'));
+
+                    // Добавляем активный класс на нажатый шаг
+                    this.classList.add('active');
+
+                    // Получаем номер шага и показываем соответствующий контент
+                    const stepId = this.getAttribute('data-step');
+                    const targetDetail = document.getElementById('step-' + stepId);
+                    if(targetDetail) {
+                        targetDetail.classList.add('active');
+                    }
+                });
+            });
+
+
+
+
+
+                        // --- 4. ЛОГИКА МОДАЛЬНЫХ ОКОН ПОРТФОЛИО ---
+            const portfolioCards = document.querySelectorAll('.portfolio-card');
+            const portfolioModals = document.querySelectorAll('.portfolio-modal-overlay');
+            const portfolioCloseBtns = document.querySelectorAll('.modal-close-btn');
+
+            portfolioCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const modalId = this.getAttribute('data-modal');
+                    const modal = document.getElementById(modalId);
+                    if(modal) {
+                        modal.classList.add('active');
+                        document.body.style.overflow = 'hidden';
+                    }
+                });
+            });
+
+            portfolioCloseBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const modal = this.closest('.portfolio-modal-overlay');
+                    if(modal) {
+                        modal.classList.remove('active');
+                        document.body.style.overflow = '';
+                    }
+                });
+            });
+
+            // Закрытие по клику на фон
+            portfolioModals.forEach(modal => {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        this.classList.remove('active');
+                        document.body.style.overflow = '';
+                    }
+                });
+            });
+
+
+
+
+
+
+
+
+                        // --- 5. ЛОГИКА БУРГЕР-МЕНЮ ---
+            const burgerMenu = document.getElementById('burgerMenu');
+            const navMenu = document.getElementById('navMenu');
+            const navLinks = navMenu.querySelectorAll('a');
+
+            burgerMenu.addEventListener('click', function() {
+                this.classList.toggle('active');
+                navMenu.classList.toggle('active');
+                document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+            });
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    burgerMenu.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+
+
+
+    </script>
+</body>
+
+
+
+
+
+
+
+
+</html>
